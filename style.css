@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:whitesmoke;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    
+}
+.container{
+    max-width: 1000px;
+    background-color:wheat;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 8px solid whitesmoke;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(124, 121, 121);
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(124,121,121);
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: rgb(31, 199, 120);
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+
+}
+.content{
+    margin:30px;
+
+}
+.left-div{
+width: 30%;
+float:left;
+
+}
+.right-div{
+    right: 70%;
+    float:left;
+    color:  rgb(25, 85, 121);
+    
+
+}
+.common-hr{
+    border:solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+
+}
+.footer{
+    background-color: rgb(43, 41, 41);
+    color: rgb(235, 184, 101);
+    text-align: center;
+    padding: 0px;
+    font-size: 1rem;
+}
+.footer-menu{
+    margin-top: 12px;
+    
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+    color: azure;
+}
+
+.footer-menu a:hover{
+    color: rgb(19, 248, 57);
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
